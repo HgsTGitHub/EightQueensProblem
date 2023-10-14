@@ -5,8 +5,8 @@ namespace EightQueens
 {
     public class ChessBoard
     {
-        private readonly BitArray _cells;
-        private readonly byte _queenCount;
+        private BitArray _cells;
+        private byte _queenCount;
         private readonly byte _size;
         public ChessBoard(byte size, byte queens, BitArray? cells = null)
         {
